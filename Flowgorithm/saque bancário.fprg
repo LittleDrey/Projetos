@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Home"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-09 01:34:12 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOS0wODsiMDU6MDc6NTAgIjsyNjkw"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOS0wOTsiMDE6MzQ6MTIgIjsxOzI3OTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="saque" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe o valor do saque desejado &quot;" newline="True"/>
+            <input variable="saque"/>
+            <output expression="&quot;N&#250;mero de c&#233;dulas de 100: &quot; &amp;saque/100" newline="True"/>
+            <assign variable="saque" expression="saque%100"/>
+            <output expression="&quot;N&#250;mero de c&#233;dulas de 50: &quot; &amp;saque/50" newline="True"/>
+            <assign variable="saque" expression="saque%50"/>
+            <output expression="&quot;N&#250;mero de c&#233;dulas de 20: &quot; &amp;saque/20" newline="True"/>
+            <assign variable="saque" expression="saque%20"/>
+            <output expression="&quot;N&#250;mero de c&#233;dulas de 10: &quot; &amp;saque/10" newline="True"/>
+            <assign variable="saque" expression="saque%10"/>
+            <output expression="&quot;N&#250;mero de c&#233;dulas de 5: &quot; &amp;saque/5" newline="True"/>
+            <assign variable="saque" expression="saque%5"/>
+            <output expression="&quot;N&#250;mero de c&#233;dulas de 2: &quot; &amp;saque/2" newline="True"/>
+            <assign variable="saque" expression="saque%2"/>
+            <output expression="&quot;N&#250;mero de c&#233;dulas de 1: &quot; &amp;saque" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

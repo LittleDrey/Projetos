@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="Multiplica&#231;&#227;o"/>
+        <attribute name="authors" value="Dreyzin"/>
+        <attribute name="about" value="opera&#231;&#227;o de multiplica&#231;&#227;o b&#225;sica entre dois fatores"/>
+        <attribute name="saved" value="2023-08-22 05:38:48 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yMjsiMDU6MzU6MzIgIjsyNjg2"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yMjsiMDU6Mzg6NDggIjsxOzI4MDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="opera&#231;&#227;o de multiplica&#231;&#227;o b&#225;sica entre dois fatores"/>
+            <declare name="x1, x2, result" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ol&#225; usu&#225;rio, insira qualquer n&#250;mero desejado &quot;" newline="True"/>
+            <input variable="x1"/>
+            <output expression="&quot;Muito bem, agora informe outro n&#250;mero qualquer &quot;" newline="True"/>
+            <input variable="x2"/>
+            <assign variable="result" expression="x1*x2"/>
+            <output expression="&quot;De acordo com as informa&#231;&#245;es recebidas, o resultado da sua opera&#231;&#227;o &#233; de &quot; &amp;result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

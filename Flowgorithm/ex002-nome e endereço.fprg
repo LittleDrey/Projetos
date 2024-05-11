@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="Nome e endere&#231;o"/>
+        <attribute name="authors" value="Dreyzn"/>
+        <attribute name="about" value="mostrar o nome e o endere&#231;o do operador"/>
+        <attribute name="saved" value="2023-08-29 06:19:00 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yOTsiMDY6MTI6MjAgIjsyNjg2"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yOTsiMDY6MTk6MDAgIjsxOzI3OTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="mostrar o nome e o endere&#231;o do operador"/>
+            <declare name="nome, endere&#231;o" type="String" array="False" size=""/>
+            <output expression="&quot;Ol&#225;, boa tarde. Me informe o seu nome &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Agora me informe o seu endere&#231;o &quot;" newline="True"/>
+            <input variable="endere&#231;o"/>
+            <output expression="&quot;O nome do operador &#233; &quot; &amp; nome &amp; &quot; e o seu endere&#231;o &#233; &quot; &amp; endere&#231;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

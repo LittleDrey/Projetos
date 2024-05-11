@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="Aprova&#231;&#227;o por m&#233;dia, reprova&#231;&#227;o por falta e nota "/>
+        <attribute name="authors" value="Dreyzn"/>
+        <attribute name="about" value="Algoritmo que exibe se tal aluno foi aprovado na m&#233;dia, reprovado por m&#233;dia ou reprovado por falta "/>
+        <attribute name="saved" value="2023-09-25 11:40:04 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOS0yNTsiMDY6Mjk6NDggIjsyNzAx"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOS0yNTsiMTE6NDA6MDQgIjsxOzI3OTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo que exibe se tal aluno foi aprovado na m&#233;dia, reprovado por m&#233;dia ou reprovado por falta "/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="n1, n2, n3, media" type="Real" array="False" size=""/>
+            <declare name="ndf" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe o nome do aluno: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Informe a primeira nota do aluno: &quot; &amp;nome" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Informe a segunda nota do aluno: &quot; &amp;nome" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Informe a terceira nota do aluno: &quot; &amp;nome" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Informe o n&#250;mero de faltas do aluno: &quot; &amp;nome" newline="True"/>
+            <input variable="ndf"/>
+            <if expression="ndf&gt;=15">
+                <then>
+                    <assign variable="media" expression="(n1+n2+n3)/3"/>
+                    <output expression="&quot;O aluno &quot; &amp;nome&amp; &quot; foi reprovado por falta e sua m&#233;dia foi de: &quot; &amp;media" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="media" expression="(n1+n2+n3)/3"/>
+                    <if expression="media&gt;=7">
+                        <then>
+                            <output expression="&quot;O aluno &quot; &amp;nome&amp; &quot; foi aprovado por m&#233;dia e por faltas, sua m&#233;dia foi &quot; &amp;media" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;O aluno &quot; &amp;nome&amp; &quot; foi reprovado por falta de m&#233;dia escolar, sua m&#233;dia foi &quot; &amp;media" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

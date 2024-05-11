@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="maior, menor ou igual "/>
+        <attribute name="authors" value="Dreyzn"/>
+        <attribute name="about" value="algoritmo para verificar se &#233; maior, menor ou igual a 5,5"/>
+        <attribute name="saved" value="2023-08-29 06:30:04 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yOTsiMDY6MTk6NDggIjsyNzAz"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yOTsiMDY6MzA6MDQgIjsxOzI3OTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="algoritmo para verificar se &#233; maior, menor ou igual a 5,5"/>
+            <declare name="n1" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe qualquer n&#250;mero desejado &quot;" newline="True"/>
+            <input variable="n1"/>
+            <if expression="n1&gt;5.5">
+                <then>
+                    <output expression="&quot;&#201; maior &quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n1&lt;5.5">
+                        <then>
+                            <output expression="&quot;&#201; menor &quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;&#201; igual &quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

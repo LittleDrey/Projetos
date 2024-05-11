@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value="Saque"/>
+        <attribute name="authors" value="Pablo"/>
+        <attribute name="about" value="Algoritmo de saque."/>
+        <attribute name="saved" value="2023-09-19 10:12:54 "/>
+        <attribute name="created" value="Q0ZUVjtERVNLVE9QLTM0SzBQSEc7MjAyMy0wOS0wNjsiMDE6MTM6MTMgIjsyNTI1"/>
+        <attribute name="edited" value="Q0ZUVjtERVNLVE9QLTM0SzBQSEc7MjAyMy0wOS0xMTsiMTE6NDE6NTggIjsyOzI2NDE="/>
+        <attribute name="edited" value="YXV0b2xvZ29uO0RGMDEtTEFCMDgtMjE7MjAyMy0wOS0xOTsiMTA6MTI6NTQgIjsyOzMwMjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Algoritmo de saque."/>
+            <declare name="valorSaque, qtdNotas100, qtdNotas50, qtdNotas20, qtdNotas10, qtdNotas5, qtdNotas2, qtdNotas1" type="Integer" array="False" size=""/>
+            <assign variable="qtdNotas100" expression="0"/>
+            <assign variable="qtdNotas50" expression="0"/>
+            <assign variable="qtdNotas20" expression="0"/>
+            <assign variable="qtdNotas10" expression="0"/>
+            <assign variable="qtdNotas5" expression="0"/>
+            <assign variable="qtdNotas2" expression="0"/>
+            <assign variable="qtdNotas1" expression="0"/>
+            <output expression="&quot;Bem-vindo ao caixa eletr&#244;nico!&quot;" newline="True"/>
+            <output expression="&quot;Insira o valor que deseja sacar:&quot;" newline="True"/>
+            <input variable="valorSaque"/>
+            <assign variable="qtdNotas100" expression="valorSaque/100"/>
+            <assign variable="valorSaque" expression="valorSaque%100"/>
+            <assign variable="qtdNotas50" expression="valorSaque/50"/>
+            <assign variable="valorSaque" expression="valorSaque%50"/>
+            <assign variable="qtdNotas20" expression="valorSaque/20"/>
+            <assign variable="valorSaque" expression="valorSaque%20"/>
+            <assign variable="qtdNotas10" expression="valorSaque/10"/>
+            <assign variable="valorSaque" expression="valorSaque%10"/>
+            <assign variable="qtdNotas5" expression="valorSaque/5"/>
+            <assign variable="valorSaque" expression="valorSaque%5"/>
+            <assign variable="qtdNotas2" expression="valorSaque/2"/>
+            <assign variable="valorSaque" expression="valorSaque%2"/>
+            <assign variable="qtdNotas1" expression="valorSaque/1"/>
+            <assign variable="valorSaque" expression="valorSaque%1"/>
+            <output expression="&quot;Saque autorizado pela institui&#231;&#227;o.&quot;" newline="True"/>
+            <output expression="&quot;Saque realizado com sucesso.&quot;" newline="True"/>
+            <output expression="&quot;Quantidade de notas:&quot;" newline="True"/>
+            <output expression="&quot;R$ 100: &quot; &amp; qtdNotas100" newline="True"/>
+            <output expression="&quot;R$ 50: &quot; &amp; qtdNotas50" newline="True"/>
+            <output expression="&quot;R$ 20: &quot; &amp; qtdNotas20" newline="True"/>
+            <output expression="&quot;R$ 10: &quot; &amp; qtdNotas10" newline="True"/>
+            <output expression="&quot;R$ 5:&quot;&amp; qtdNotas5" newline="True"/>
+            <output expression="&quot;R$ 2:&quot; &amp; qtdNotas2" newline="True"/>
+            <output expression="&quot;R$ 1:&quot; &amp; qtdNotas1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

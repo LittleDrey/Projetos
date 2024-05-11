@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="Divis&#227;o"/>
+        <attribute name="authors" value="Dreyzin"/>
+        <attribute name="about" value="opera&#231;&#227;o b&#225;sica de divis&#227;o"/>
+        <attribute name="saved" value="2023-08-22 05:41:57 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yMjsiMDU6Mzg6NTEgIjsyNjkw"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yMjsiMDU6NDE6NTcgIjsxOzI3OTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="opera&#231;&#227;o b&#225;sica de divis&#227;o"/>
+            <declare name="num1, num2, result" type="Real" array="False" size=""/>
+            <output expression="&quot;Escolha qualquer n&#250;mero de 1 a 999 &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Escolha qualquer n&#250;mero de 1 a 999 &quot;" newline="True"/>
+            <input variable="num2"/>
+            <assign variable="result" expression="num1/num2"/>
+            <output expression="&quot;O resultado para suas escolhas &#233; de &quot; &amp;result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

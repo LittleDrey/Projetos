@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Home"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-12 10:47:02 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOS0xMjsiMTA6MTM6MTQgIjsyNjc4"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOS0xMjsiMTA6NDc6MDIgIjsxOzI3OTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o valor do primeiro lado: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Informe o valor do segundo lado: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Informe o valor do terceiro lado: &quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="(a=b) or (b=c) or (a=c)">
+                <then>
+                    <output expression="&quot;Forma um tri&#226;ngulo equil&#225;tero &quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="(a=b) or (b=c) or (a=c)">
+                        <then>
+                            <output expression="&quot;Forma um tri&#226;ngulo is&#243;sceles  &quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Forma um tri&#226;ngulo escaleno &quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="multiplica&#231;&#227;o 6 n&#250;meros"/>
+        <attribute name="authors" value="Dreyzn"/>
+        <attribute name="about" value="produto da multiplica&#231;&#227;o de 6 n&#250;meros"/>
+        <attribute name="saved" value="2023-08-29 06:12:11 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yOTsiMDY6MDY6MTggIjsyNjk2"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yOTsiMDY6MTI6MTEgIjsxOzI3OTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="produto da multiplica&#231;&#227;o de 6 n&#250;meros"/>
+            <declare name="n1, n2, n3, n4, n5, n6, produto" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite um n&#250;mero &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Digite um n&#250;mero &quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Digite um n&#250;mero &quot;" newline="True"/>
+            <input variable="n4"/>
+            <output expression="&quot;Digite um n&#250;mero &quot;" newline="True"/>
+            <input variable="n5"/>
+            <output expression="&quot;Digite um n&#250;mero &quot;" newline="True"/>
+            <input variable="n6"/>
+            <assign variable="produto" expression="n1*n2*n3*n4*n5*n6"/>
+            <output expression="&quot;O produto da multiplica&#231;&#227;o desses 6 n&#250;meros &#233; &quot; &amp; produto" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

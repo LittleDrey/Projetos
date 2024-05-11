@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="Avaliador de sal&#225;rio"/>
+        <attribute name="authors" value="Dreyzin"/>
+        <attribute name="about" value="Quantos sal&#225;rios m&#237;nimos uma pessoa recebe "/>
+        <attribute name="saved" value="2023-08-23 05:21:04 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yMzsiMDU6MTA6MzYgIjsyNjg0"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yMzsiMDU6MjE6MDQgIjsxOzI3ODk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="testador de salariokkkj"/>
+            <declare name="sM, sU" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe seu sal&#225;rio atual &quot;" newline="True"/>
+            <input variable="sU"/>
+            <assign variable="sM" expression="sU/788.00"/>
+            <output expression="&quot;Voc&#234; ganha &quot; &amp;sM&amp; &quot; sal&#225;rios m&#237;nimos&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

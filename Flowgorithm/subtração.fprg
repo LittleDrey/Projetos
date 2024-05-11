@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="Subtra&#231;&#227;o"/>
+        <attribute name="authors" value="Dreyzin"/>
+        <attribute name="about" value="fluxograma criado para efetuar uma subtra&#231;&#227;o simples"/>
+        <attribute name="saved" value="2023-08-22 05:35:20 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yMjsiMDU6MzI6NDggIjsyNjkw"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yMjsiMDU6MzU6MjAgIjsxOzI3OTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="fluxograma criado para efetuar uma subtra&#231;&#227;o simples"/>
+            <declare name="a1, a2, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe qualquer n&#250;mero &quot;" newline="True"/>
+            <input variable="a1"/>
+            <output expression="&quot;Informe qualquer outro n&#250;mero &quot;" newline="True"/>
+            <input variable="a2"/>
+            <assign variable="resultado" expression="a1-a2"/>
+            <output expression="&quot;O resultado da subtra&#231;&#227;o de a e b &#233; igual a &quot; &amp;resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

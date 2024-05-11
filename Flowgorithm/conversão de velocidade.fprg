@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="Algoritmo de velocidade"/>
+        <attribute name="authors" value="Dreyzin"/>
+        <attribute name="about" value="Algoritmo de convers&#227;o de velocidade"/>
+        <attribute name="saved" value="2023-08-23 05:09:07 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yMzsiMDU6MDQ6MjMgIjsyNjgz"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yMzsiMDU6MDk6MDcgIjsxOzI3OTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="convers&#227;o de velocidade"/>
+            <declare name="vel, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe a velocidade do ve&#237;culo em km/h &quot;" newline="True"/>
+            <input variable="vel"/>
+            <assign variable="resultado" expression="vel*0.62"/>
+            <output expression="&quot;A velocidade do ve&#237;culo convertida para m/h &#233; de &quot; &amp;resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

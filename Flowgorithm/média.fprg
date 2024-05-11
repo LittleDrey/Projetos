@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="M&#233;dia"/>
+        <attribute name="authors" value="Dreyzin"/>
+        <attribute name="about" value="m&#233;dia de alunos m&#233;dio 01"/>
+        <attribute name="saved" value="2023-09-25 11:25:54 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOC0yMjsiMDU6NDI6NTMgIjsyNjg3"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLU5GSEdSS0Y7MjAyMy0wOS0yNTsiMTE6MjU6NTQgIjs0OzI4MDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="m&#233;dia de alunos m&#233;dio 01"/>
+            <declare name="nota1, nota2, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe a primeira nota do aluno &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Informe a segunda nota do aluno &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <assign variable="media" expression="(nota1+nota2)/2"/>
+            <if expression="media&gt;=6">
+                <then>
+                    <output expression="&quot;O aluno foi aprovado e sua media foi: &quot; &amp;media" newline="True"/>
+                </then>
+                <else>
+                    <if expression="media&lt;4">
+                        <then>
+                            <output expression="&quot;O aluno foi reprovado e sua m&#233;dia foi: &quot; &amp;media" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;O aluno dever&#225; fazer um exame &quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
